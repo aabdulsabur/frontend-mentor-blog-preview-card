@@ -31,10 +31,12 @@ This is a solution to the [blog preview card challenge on Frontend Mentor](https
 - CSS custom properties
 
 ### What I learned
-- practiced flexbox 
+
+- practiced flexbox
 - centering a div using flex box justify-content and align-items
 - working with img containers
 - media query
 
 ## Author
+
 - Frontend Mentor - [@aabdulsabur](https://www.frontendmentor.io/profile/aabdulsabur)
