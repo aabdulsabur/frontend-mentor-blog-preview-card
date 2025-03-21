@@ -89,6 +89,7 @@ body {
   border-radius: 0.25rem;
 }
 
+
 .blog-date {
   color: var(--Gray-950);
   font-size: 1rem;
@@ -99,6 +100,11 @@ body {
   font-weight: 900;
   font-size: 1.25rem;
   margin-bottom: 1rem;
+  transition: all 0.3s ease-in;
+}
+.blog-title:hover{
+  color: var(--Yellow);
+  cursor: pointer;
 }
 .post-preview {
   color: var(--Gray-500);
