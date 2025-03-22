@@ -144,6 +144,13 @@ body {
     width: 85vw;
     /* 375x812 */
   }
+  .post-preview {
+  color: var(--Gray-500);
+  width: 95%;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
 }
 /* attribution */
 .attribution {
