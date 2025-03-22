@@ -48,6 +48,11 @@ body {
   background: var(--Yellow);
   font-family: var(--ff-primary);
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 100vh;
 }
 
 .blog-img-container {
@@ -56,7 +61,6 @@ body {
 
 .blog-img {
   width: 100%;
-  height: 200px;
   object-fit: cover;
   display: block;
   margin-bottom: 2rem;
@@ -89,7 +93,6 @@ body {
   border-radius: 0.25rem;
 }
 
-
 .blog-date {
   color: var(--Gray-950);
   font-size: 1rem;
@@ -102,7 +105,7 @@ body {
   margin-bottom: 1rem;
   transition: all 0.3s ease-in;
 }
-.blog-title:hover{
+.blog-title:hover {
   color: var(--Yellow);
   cursor: pointer;
 }
@@ -141,4 +144,14 @@ body {
     width: 85vw;
     /* 375x812 */
   }
+}
+/* attribution */
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
